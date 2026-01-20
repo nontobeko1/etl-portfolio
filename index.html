@@ -1,100 +1,145 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name | Data / ETL Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Nontobeko Dube | Data Engineer Portfolio</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-
 <body>
-  <!-- NAV -->
-  <header class="topbar">
-    <div class="container navwrap">
-      <div class="brand">YourName</div>
-      <nav class="nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
 
+<header>
+  <div class="container header-inner">
+    <div class="brand">Nontobeko Dube</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="about.html">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
   <!-- HERO -->
   <section id="home" class="hero">
     <div class="container hero-grid">
       <div>
-        <h1>Nontobeko Dube</h1>
-        <h2 class="subtitle">Junior Data / ETL Developer</h2>
-        <p class="lead">
-          I build reliable ETL pipelines that clean raw data, load it into SQL Server data warehouses,
-          and enable analytics-ready reporting.
+        <h1 class="split-title">Data Engineer building reliable pipelines and analytics-ready data products.</h1>
+        <p>
+          I design ETL workflows, model data warehouses, and deliver clean datasets for reporting and decision-making.
         </p>
 
-        <div class="cta-row">
-          <a class="btn primary" href="#projects">View My Projects</a>
-          <a class="btn ghost" href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a>
+        <div class="badge-row">
+          <span class="badge">📍 South Africa</span>
+          <span class="badge">✅ Open to remote roles</span>
         </div>
 
-        <div class="meta">
-          <span>📍 South Africa</span>
-          <span>•</span>
-          <span>Open to remote roles</span>
+        <div class="btn-row">
+          <a class="btn primary" href="#projects">View My Projects</a>
+          <a class="btn" href="https://github.com/nontobeko1" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="about.html">About Me</a>
         </div>
       </div>
 
-      <div class="hero-card">
-        <img class="avatar" src="assets/images/profile.jpg" alt="Profile photo" />
+      <div class="card hero-card">
+        <img class="avatar" src="assets/images/profile.jpeg" alt="Profile photo" />
         <div class="hero-card-body">
           <div class="mini-title">Featured Project</div>
           <div class="mini-name">Online Retail ETL → SQL Server DW</div>
           <p class="mini-text">
-            End-to-end ETL pipeline (Python + Pandas + SQLAlchemy/pyodbc) loading a star schema
-            into Microsoft SQL Server.
+            End-to-end ETL pipeline (Python + Pandas + SQLAlchemy/pyodbc) loading a star schema into Microsoft SQL Server.
           </p>
-          <a class="btn small" href="#projects">See details</a>
+          <a class="btn" href="#projects">See details</a>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <div class="container">
-      <h3>About Me</h3>
-      <p>
-        I enjoy turning messy datasets into structured, trusted data models.
-        My focus is on data quality, repeatable pipelines, and SQL Server data warehousing fundamentals
-        (staging → dimensions → facts).
-      </p>
-      <p>
-        Recent work includes building an automated ETL pipeline using the Online Retail dataset:
-        cleaning, validating, and loading into a star schema for reporting and analysis.
-      </p>
     </div>
   </section>
 
   <!-- SKILLS -->
   <section id="skills" class="section alt">
     <div class="container">
-      <h3>Technical Skills</h3>
+      <h2>Skills</h2>
+      <p>My core toolkit across data engineering, analytics, and delivery.</p>
 
-      <div class="grid-3">
-        <div class="card">
-          <h4>Databases & Querying</h4>
-          <p>Microsoft SQL Server • SSMS • T-SQL • Data Modeling • Indexing</p>
+      <div class="grid-2" style="margin-top:18px;">
+        <!-- Technical -->
+        <div class="card skill-card">
+          <h3>
+            <span class="icon-square" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16v4H4V4zm0 6h16v10H4V10zm2 2v6h12v-6H6z"/></svg>
+            </span>
+            Technical Skills
+          </h3>
+          <div class="pills">
+            <span class="pill">SQL</span>
+            <span class="pill">Python</span>
+            <span class="pill">Power BI</span>
+            <span class="pill">Microsoft Azure</span>
+            <span class="pill">AWS</span>
+            <span class="pill">Apache Spark</span>
+            <span class="pill">Airflow</span>
+            <span class="pill">Docker</span>
+          </div>
         </div>
 
-        <div class="card">
-          <h4>ETL & Data Engineering</h4>
-          <p>Python • Pandas • SQLAlchemy • pyodbc • Logging • Batch Loads</p>
+        <!-- Interpersonal -->
+        <div class="card skill-card">
+          <h3>
+            <span class="icon-square" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 3-1.34 3-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zM8 11c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.93 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+            </span>
+            Interpersonal Skills
+          </h3>
+          <div class="pills">
+            <span class="pill">Team collaboration</span>
+            <span class="pill">Cross-functional communication</span>
+            <span class="pill">Stakeholder management</span>
+            <span class="pill">Technical documentation</span>
+            <span class="pill">Analytical & critical thinking</span>
+            <span class="pill">Adaptability</span>
+            <span class="pill">Troubleshooting & debugging</span>
+            <span class="pill">Ownership & accountability</span>
+            <span class="pill">Time management</span>
+          </div>
         </div>
 
-        <div class="card">
-          <h4>Analytics & BI</h4>
-          <p>Power BI • Excel • KPI Design • Dashboarding • Data Validation</p>
+        <!-- PM -->
+        <div class="card skill-card">
+          <h3>
+            <span class="icon-square" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 5h18v2H3V5zm0 6h18v2H3v-2zm0 6h18v2H3v-2z"/></svg>
+            </span>
+            Project Management
+          </h3>
+          <div class="pills">
+            <span class="pill">Jira</span>
+            <span class="pill">Trello</span>
+            <span class="pill">Asana</span>
+            <span class="pill">Agile</span>
+            <span class="pill">Scrum</span>
+            <span class="pill">Waterfall</span>
+            <span class="pill">Decision making</span>
+            <span class="pill">Task delegation</span>
+          </div>
+        </div>
+
+        <!-- Analytics extras -->
+        <div class="card skill-card">
+          <h3>
+            <span class="icon-square" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 19h16v2H4v-2zM6 10h2v7H6v-7zm5-5h2v12h-2V5zm5 3h2v9h-2V8z"/></svg>
+            </span>
+            Analytical Strengths
+          </h3>
+          <div class="pills">
+            <span class="pill">Trend identification</span>
+            <span class="pill">Problem solving</span>
+            <span class="pill">Curiosity & continuous learning</span>
+            <span class="pill">Resilience</span>
+            <span class="pill">Initiative</span>
+          </div>
         </div>
       </div>
     </div>
@@ -103,31 +148,51 @@
   <!-- PROJECTS -->
   <section id="projects" class="section">
     <div class="container">
-      <h3>Projects</h3>
+      <h2>Projects</h2>
+      <p>Selected projects demonstrating ETL, data modelling, and reporting.</p>
 
-      <div class="project-grid">
-        <article class="project-card">
-          <img src="assets/images/etl_architecture.png" alt="ETL architecture diagram">
+      <div class="project-grid" style="margin-top:18px;">
+        <article class="card project-card">
+          <img src="assets/images/etl_architecture.png" alt="ETL architecture diagram" />
           <div class="project-body">
-            <h4>Online Retail ETL → SQL Server Data Warehouse</h4>
+            <h3>Online Retail ETL → SQL Server Data Warehouse</h3>
             <p>
-              Built a complete ETL pipeline: extract + transform (clean data & compute TotalSales),
-              then load into SQL Server staging, dimensions, and fact tables using a star schema.
+              Built a complete ETL pipeline: extract + transform (clean data & compute TotalSales), then load into SQL Server
+              staging, dimensions, and fact tables using a star schema.
             </p>
-
             <div class="tags">
-              <span>Python</span><span>Pandas</span><span>SQL Server</span>
-              <span>SSMS</span><span>Star Schema</span>
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">SQL Server</span>
+              <span class="tag">SSMS</span>
+              <span class="tag">Star Schema</span>
             </div>
-
-            <div class="links">
-              <a href="https://github.com/nontobeko1/online-retail-etl" target="_blank">View on GitHub</a>
-              <a href="#" target="_blank">Download Report</a>
+            <div style="margin-top:12px;">
+              <a class="btn" href="etl-project.html">See details</a>
+              <a class="btn" href="https://github.com/nontobeko1/online-retail-etl" target="_blank" rel="noopener">View on GitHub</a>
             </div>
           </div>
         </article>
 
-        <!-- Add more project cards later -->
+        <article class="card project-card">
+          <img src="assets/images/etl_architecture.png" alt="Star schema diagram" />
+          <div class="project-body">
+            <h3>Data Warehouse Modelling (Star Schema)</h3>
+            <p>
+              Implemented a star schema with staging, dimensions (customer/product/date), and a fact_sales table to enable
+              analytics-ready reporting and consistent KPI tracking.
+            </p>
+            <div class="tags">
+              <span class="tag">Dimensional Modelling</span>
+              <span class="tag">T-SQL</span>
+              <span class="tag">Data Quality</span>
+              <span class="tag">Governance</span>
+            </div>
+            <div style="margin-top:12px;">
+              <a class="btn" href="etl-project.html">See details</a>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -135,41 +200,67 @@
   <!-- CONTACT -->
   <section id="contact" class="section alt">
     <div class="container">
-      <h3>Contact</h3>
+      <h2>Contact Information</h2>
+      <div style="height:2px;background:var(--accent);opacity:.8;margin:12px 0 22px;"></div>
 
-      <div class="contact-grid">
-        <div class="card">
-          <h4>Email</h4>
-          <p><a href="mailto:nontodube94@gmail.com">nontodube94@gmail.com</a></p>
-        </div>
-        <div class="card">
-          <h4>GitHub</h4>
-          <p><a href="https://github.com/nontobeko1" target="_blank">github.com/YOUR_GITHUB</a></p>
-        </div>
-        <div class="card">
-          <h4>LinkedIn</h4>
-          <p><a href="https://www.linkedin.com/in/nontocordydube" target="_blank">LinkedIn Profile</a></p>
-        </div>
-        <div class="card">
-          <h4>Cellphone Number</h4>
-          <p><a href="0658143850" target="_blank">Cellphone Number</a></p>
+      <div class="contact-wrap">
+        <div class="contact-list">
+
+          <div class="contact-item">
+            <div class="icon-square" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+            </div>
+            <div>
+              <div class="label">Email</div>
+              <div class="value"><a href="mailto:nontodube94@gmail.com">nontodube94@gmail.com</a></div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon-square" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1.01.07 1.54 1.06 1.54 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05a9.1 9.1 0 0 1 5 0c1.9-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.59.69.49A10.04 10.04 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg>
+            </div>
+            <div>
+              <div class="label">GitHub</div>
+              <div class="value"><a href="https://github.com/nontobeko1" target="_blank" rel="noopener">github.com/nontobeko1</a></div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon-square" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 3C3.45 3 3 3.45 3 4v16c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H4zm4.5 15H6V10.5h2.5V18zM7.25 9.6c-.8 0-1.45-.66-1.45-1.47 0-.81.65-1.47 1.45-1.47.8 0 1.45.66 1.45 1.47 0 .81-.65 1.47-1.45 1.47zM18 18h-2.5v-4.02c0-.96-.02-2.2-1.34-2.2-1.34 0-1.55 1.05-1.55 2.13V18H10.1V10.5h2.4v1.02h.03c.34-.64 1.16-1.31 2.4-1.31 2.57 0 3.05 1.7 3.05 3.91V18z"/></svg>
+            </div>
+            <div>
+              <div class="label">LinkedIn</div>
+              <div class="value"><a href="https://www.linkedin.com/in/nontocordydube" target="_blank" rel="noopener">linkedin.com/in/nontocordydube</a></div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon-square" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+            </div>
+            <div>
+              <div class="label">Location</div>
+              <div class="value">South Africa • Available for remote positions worldwide</div>
+            </div>
+          </div>
+
         </div>
       </div>
+
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div>© <span id="year"></span> Nontobeko. All rights reserved.</div>
-      <div class="footer-links">
-        <a href="https://github.com/nontobeko1" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/nontocordydube" target="_blank">LinkedIn</a>
-      </div>
-    </div>
-  </footer>
+</main>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+<footer class="footer">
+  © <span id="y"></span> Nontobeko Dube • Data Engineer
+</footer>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>

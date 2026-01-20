@@ -1,15 +1,65 @@
-<section>
-  <h2>About Me</h2>
-  <p>
-    I am a Business Analyst with strong data engineering skills, specialising
-    in ETL pipeline development, SQL-based analytics models, and automation.
-  </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>About | Nontobeko Dube</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Python (ETL, Automation)</li>
-    <li>SQL Server & Data Modelling</li>
-    <li>Data Quality & Validation</li>
-    <li>Analytics Pipelines</li>
-  </ul>
-</section>
+<header>
+  <div class="container header-inner">
+    <div class="brand">Nontobeko Dube</div>
+    <nav>
+      <a href="index.html#home">Home</a>
+      <a href="about.html">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1>About Me</h1>
+
+      <div class="card" style="margin-top:16px;">
+        <p>
+          I’m a <strong>Data Engineer</strong> focused on building reliable, traceable data pipelines and analytics-ready datasets
+          that teams can trust. I enjoy turning messy, semi-structured data into clean relational models, and designing
+          warehouse structures that make reporting faster and decisions clearer.
+        </p>
+
+        <p>
+          My strengths sit at the intersection of <strong>ETL engineering</strong>, <strong>T-SQL performance</strong>, and <strong>cloud-aligned data modelling</strong>.
+          I’ve worked with API-driven ingestion, JSON/XML normalization, and building curated datasets for BI tools—while keeping
+          quality and governance in mind.
+        </p>
+
+        <p style="margin-bottom:0;">
+          I also bring strong delivery discipline from project environments: stakeholder communication, documentation, and structured execution—
+          the things that help data work move from “it runs” to “it delivers value.”
+        </p>
+      </div>
+
+      <div class="btn-row" style="margin-top:18px;">
+        <a class="btn primary" href="index.html#projects">View Projects</a>
+        <a class="btn" href="index.html#contact">Contact Me</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  © <span id="y"></span> Nontobeko Dube • Data Engineer
+</footer>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
