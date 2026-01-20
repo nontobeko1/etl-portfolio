@@ -194,3 +194,17 @@ h4 { margin: 0 0 10px; }
   .contact-grid { grid-template-columns: 1fr; }
   h1 { font-size: 34px; }
 }
+
+/* Project images */
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+/* Project card fix */
+.project-card {
+  overflow: visible;
+}
