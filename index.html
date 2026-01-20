@@ -1,35 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Cordellia | Data & ETL Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Data / ETL Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
+  <!-- NAV -->
+  <header class="topbar">
+    <div class="container navwrap">
+      <div class="brand">YourName</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<header>
-  <h1>Cordellia</h1>
-  <p>Business Analyst | Data & ETL Engineering</p>
-</header>
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Nontobeko Dube</h1>
+        <h2 class="subtitle">Junior Data / ETL Developer</h2>
+        <p class="lead">
+          I build reliable ETL pipelines that clean raw data, load it into SQL Server data warehouses,
+          and enable analytics-ready reporting.
+        </p>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="projects.html">Projects</a>
-  <a href="about.html">About</a>
-</nav>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">View My Projects</a>
+          <a class="btn ghost" href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a>
+        </div>
 
-<section>
-  <h2>Welcome</h2>
-  <p>
-    I design and automate data pipelines that transform raw data into
-    reliable analytics-ready databases. This portfolio showcases real-world
-    ETL projects using Python and SQL Server.
-  </p>
-</section>
+        <div class="meta">
+          <span>📍 South Africa</span>
+          <span>•</span>
+          <span>Open to remote roles</span>
+        </div>
+      </div>
 
-<footer>
-  <p>© 2026 Cordellia</p>
-</footer>
+      <div class="hero-card">
+        <img class="avatar" src="assets/images/profile.jpg" alt="Profile photo" />
+        <div class="hero-card-body">
+          <div class="mini-title">Featured Project</div>
+          <div class="mini-name">Online Retail ETL → SQL Server DW</div>
+          <p class="mini-text">
+            End-to-end ETL pipeline (Python + Pandas + SQLAlchemy/pyodbc) loading a star schema
+            into Microsoft SQL Server.
+          </p>
+          <a class="btn small" href="#projects">See details</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h3>About Me</h3>
+      <p>
+        I enjoy turning messy datasets into structured, trusted data models.
+        My focus is on data quality, repeatable pipelines, and SQL Server data warehousing fundamentals
+        (staging → dimensions → facts).
+      </p>
+      <p>
+        Recent work includes building an automated ETL pipeline using the Online Retail dataset:
+        cleaning, validating, and loading into a star schema for reporting and analysis.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h3>Technical Skills</h3>
+
+      <div class="grid-3">
+        <div class="card">
+          <h4>Databases & Querying</h4>
+          <p>Microsoft SQL Server • SSMS • T-SQL • Data Modeling • Indexing</p>
+        </div>
+
+        <div class="card">
+          <h4>ETL & Data Engineering</h4>
+          <p>Python • Pandas • SQLAlchemy • pyodbc • Logging • Batch Loads</p>
+        </div>
+
+        <div class="card">
+          <h4>Analytics & BI</h4>
+          <p>Power BI • Excel • KPI Design • Dashboarding • Data Validation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h3>Projects</h3>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/images/etl_architecture.png" alt="ETL architecture diagram">
+          <div class="project-body">
+            <h4>Online Retail ETL → SQL Server Data Warehouse</h4>
+            <p>
+              Built a complete ETL pipeline: extract + transform (clean data & compute TotalSales),
+              then load into SQL Server staging, dimensions, and fact tables using a star schema.
+            </p>
+
+            <div class="tags">
+              <span>Python</span><span>Pandas</span><span>SQL Server</span>
+              <span>SSMS</span><span>Star Schema</span>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/nontobeko1/online-retail-etl" target="_blank">View on GitHub</a>
+              <a href="#" target="_blank">Download Report</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Add more project cards later -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h3>Contact</h3>
+
+      <div class="contact-grid">
+        <div class="card">
+          <h4>Email</h4>
+          <p><a href="mailto:nontodube94@gmail.com">nontodube94@gmail.com</a></p>
+        </div>
+        <div class="card">
+          <h4>GitHub</h4>
+          <p><a href="https://github.com/nontobeko1" target="_blank">github.com/YOUR_GITHUB</a></p>
+        </div>
+        <div class="card">
+          <h4>LinkedIn</h4>
+          <p><a href="https://www.linkedin.com/in/nontocordydube" target="_blank">LinkedIn Profile</a></p>
+        </div>
+        <div class="card">
+          <h4>Cellphone Number</h4>
+          <p><a href="0658143850" target="_blank">Cellphone Number</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Nontobeko. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="https://github.com/nontobeko1" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/nontocordydube" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
